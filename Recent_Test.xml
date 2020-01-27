@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.Popbitch.POPSMO31_Login_From_Wallet"/>   	 
+ <class name="Stepdef.cornwalllive.CORSMO01_Cornwall_register_from_first_use_notice"/>   	 
     </classes>
   </test> 
   </suite>		

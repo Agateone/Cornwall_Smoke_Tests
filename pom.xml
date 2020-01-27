@@ -26,7 +26,7 @@
                 <testFailureIgnore>true</testFailureIgnore>
                 <forkCount>0</forkCount>	
           <suiteXmlFiles>
-          <suiteXmlFile>Popbitch_Smoke_Tests_Live_Chrome_1.xml</suiteXmlFile>
+          <suiteXmlFile>Recent_Test.xml</suiteXmlFile>
       
           </suiteXmlFiles>
           </configuration>
