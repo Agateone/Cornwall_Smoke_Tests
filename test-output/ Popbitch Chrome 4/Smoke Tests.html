@@ -1,0 +1,324 @@
+<html>
+<head>
+<title>TestNG:  Smoke Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>49/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 06 23:15:38 GMT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>545 seconds (545571 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.acheive_free_period_on_popbitch()'><b>acheive_free_period_on_popbitch</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications</td>
+<td></td>
+<td>31</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.click_ok_on_the_authorise_charge_notice_for_first_Article()'><b>click_ok_on_the_authorise_charge_notice_for_first_Article</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>6</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.click_ok_on_the_authorise_charge_notice_of_second_article()'><b>click_ok_on_the_authorise_charge_notice_of_second_article</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.free_period_is_acheived_with_free_on_the_free_point()'><b>free_period_is_acheived_with_free_on_the_free_point</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>7</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.free_period_is_acheived_with_free_on_the_free_point()'><b>free_period_is_acheived_with_free_on_the_free_point</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>11</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.free_period_is_acheived_with_free_on_the_free_point()'><b>free_period_is_acheived_with_free_on_the_free_point</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>8</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO31_Login_From_Wallet.i_am_a_user_of_Axate_and_I_am_on_the_Login_page_wallet()'><b>i_am_a_user_of_Axate_and_I_am_on_the_Login_page_wallet</b><br>Test class: Stepdef.Popbitch.POPSMO31_Login_From_Wallet<br>Parameters: chrome</td>
+<td></td>
+<td>18</td>
+<td>Stepdef.Popbitch.POPSMO31_Login_From_Wallet@3a5ed7a6</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice.i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_staging()'><b>i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_staging</b><br>Test class: Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice<br>Parameters: chrome</td>
+<td></td>
+<td>7</td>
+<td>Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice@7791a895</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN()'><b>i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice<br>Parameters: chrome</td>
+<td></td>
+<td>10</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN()'><b>i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice<br>Parameters: chrome</td>
+<td></td>
+<td>8</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN()'><b>i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications<br>Parameters: chrome</td>
+<td></td>
+<td>9</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_reaction_FUN()'><b>i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_reaction_FUN</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice<br>Parameters: chrome</td>
+<td></td>
+<td>7</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO31_Login_From_Wallet.i_am_navigated_to_popbitch_homepage()'><b>i_am_navigated_to_popbitch_homepage</b><br>Test class: Stepdef.Popbitch.POPSMO31_Login_From_Wallet</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Popbitch.POPSMO31_Login_From_Wallet@3a5ed7a6</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice.i_am_navigated_to_the_same_article()'><b>i_am_navigated_to_the_same_article</b><br>Test class: Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice@7791a895</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice.i_am_successfully_logged_in_to_axate()'><b>i_am_successfully_logged_in_to_axate</b><br>Test class: Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice</td>
+<td></td>
+<td>9</td>
+<td>Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice@7791a895</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO31_Login_From_Wallet.i_am_successfully_logged_in_to_axate()'><b>i_am_successfully_logged_in_to_axate</b><br>Test class: Stepdef.Popbitch.POPSMO31_Login_From_Wallet</td>
+<td></td>
+<td>15</td>
+<td>Stepdef.Popbitch.POPSMO31_Login_From_Wallet@3a5ed7a6</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice.i_click_on_continue_on_login_page()'><b>i_click_on_continue_on_login_page</b><br>Test class: Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice@7791a895</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO31_Login_From_Wallet.i_click_on_continue_on_login_page()'><b>i_click_on_continue_on_login_page</b><br>Test class: Stepdef.Popbitch.POPSMO31_Login_From_Wallet</td>
+<td></td>
+<td>5</td>
+<td>Stepdef.Popbitch.POPSMO31_Login_From_Wallet@3a5ed7a6</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.i_display_the_datetime_of_the_article_read()'><b>i_display_the_datetime_of_the_article_read</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.i_display_the_datetime_of_the_article_read()'><b>i_display_the_datetime_of_the_article_read</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>2</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.i_display_the_datetime_of_the_article_read()'><b>i_display_the_datetime_of_the_article_read</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.i_display_the_datetime_of_the_article_read_on_newbury()'><b>i_display_the_datetime_of_the_article_read_on_newbury</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications</td>
+<td></td>
+<td>16</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice.i_enter_a_valid_email_and_a_valid_password_on_the_login_page()'><b>i_enter_a_valid_email_and_a_valid_password_on_the_login_page</b><br>Test class: Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice@7791a895</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO31_Login_From_Wallet.i_enter_a_valid_email_and_a_valid_password_on_the_login_page()'><b>i_enter_a_valid_email_and_a_valid_password_on_the_login_page</b><br>Test class: Stepdef.Popbitch.POPSMO31_Login_From_Wallet</td>
+<td></td>
+<td>5</td>
+<td>Stepdef.Popbitch.POPSMO31_Login_From_Wallet@3a5ed7a6</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.i_navigate_to_a_premium_article_on_newbury()'><b>i_navigate_to_a_premium_article_on_newbury</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications</td>
+<td></td>
+<td>10</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.i_navigate_to_a_premium_article_on_popbitch()'><b>i_navigate_to_a_premium_article_on_popbitch</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>5</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.i_navigate_to_second_premium_article_on_popbitch()'><b>i_navigate_to_second_premium_article_on_popbitch</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>3</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.i_navigate_to_second_premium_article_on_popbitch()'><b>i_navigate_to_second_premium_article_on_popbitch</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>5</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.i_navigate_to_second_premium_article_on_popbitch()'><b>i_navigate_to_second_premium_article_on_popbitch</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>3</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.i_opt_just_cahrge_me_on_the_newpublication_notice_and_click_ok()'><b>i_opt_just_cahrge_me_on_the_newpublication_notice_and_click_ok</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>20</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.i_register_successfully_on_popbitch_with_one_pound()'><b>i_register_successfully_on_popbitch_with_one_pound</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>67</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.i_register_successfully_on_popbitch_with_one_pound()'><b>i_register_successfully_on_popbitch_with_one_pound</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>30</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.i_register_successfully_on_popbitch_with_one_pound()'><b>i_register_successfully_on_popbitch_with_one_pound</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications</td>
+<td></td>
+<td>47</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.i_register_successfully_on_reaction_with_one_pound()'><b>i_register_successfully_on_reaction_with_one_pound</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>34</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.opt_Ask_me_everytime_on_the_finish_notice_and_click_ok()'><b>opt_Ask_me_everytime_on_the_finish_notice_and_click_ok</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>7</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.opt_Just_charge_me_on_the_finish_notice_and_click_ok()'><b>opt_Just_charge_me_on_the_finish_notice_and_click_ok</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>12</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.opt_just_charge_me_on_the_finish_notice_and_click_ok()'><b>opt_just_charge_me_on_the_finish_notice_and_click_ok</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>8</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.opt_just_charge_me_on_the_newpublication_notice_and_click_ok()'><b>opt_just_charge_me_on_the_newpublication_notice_and_click_ok</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications</td>
+<td></td>
+<td>21</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.the_free_period_on_newbury_is_one_days_from_the_date_time_the_first_article_was_read_on_newbury()'><b>the_free_period_on_newbury_is_one_days_from_the_date_time_the_first_article_was_read_on_newbury</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications</td>
+<td></td>
+<td>12</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications.the_free_period_on_popbitch_is_seven_days_from_the_date_time_the_first_article_was_read_on_popbitch()'><b>the_free_period_on_popbitch_is_seven_days_from_the_date_time_the_first_article_was_read_on_popbitch</b><br>Test class: Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications</td>
+<td></td>
+<td>15</td>
+<td>Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications@7d907bac</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.twenty_fivep_is_deducted_from_the_wallet()'><b>twenty_fivep_is_deducted_from_the_wallet</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>4</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.twenty_fivep_is_detucted_from_the_free_point()'><b>twenty_fivep_is_detucted_from_the_free_point</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>7</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.twenty_fivep_is_detucted_from_the_free_point()'><b>twenty_fivep_is_detucted_from_the_free_point</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>4</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.twenty_fivep_is_detucted_from_the_wallet()'><b>twenty_fivep_is_detucted_from_the_wallet</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>9</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.twenty_fivep_is_detucted_from_the_wallet()'><b>twenty_fivep_is_detucted_from_the_wallet</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>7</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice.twentyfivep_is_deducted_from_the_wallet()'><b>twentyfivep_is_deducted_from_the_wallet</b><br>Test class: Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice</td>
+<td></td>
+<td>6</td>
+<td>Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice@369f73a2</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.twentyfivep_is_deducted_from_the_wallet()'><b>twentyfivep_is_deducted_from_the_wallet</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>5</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice.twentyfivep_is_deducted_from_the_wallet_after_first_article()'><b>twentyfivep_is_deducted_from_the_wallet_after_first_article</b><br>Test class: Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice</td>
+<td></td>
+<td>5</td>
+<td>Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice@1f28c152</td></tr>
+<tr>
+<td title='Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice.wallet_tab_displays_free()'><b>wallet_tab_displays_free</b><br>Test class: Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice</td>
+<td></td>
+<td>9</td>
+<td>Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice@731a74c</td></tr>
+</table><p>
+</body>
+</html>

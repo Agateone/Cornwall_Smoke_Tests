@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Popbitch Chrome" duration-ms="372440" started-at="2019-05-30T15:28:52Z" finished-at="2019-05-30T15:35:05Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="372440" started-at="2019-05-30T15:28:52Z" finished-at="2019-05-30T15:35:05Z">
+      <class name="Stepdef.Popbitch_login_First_Use_Notice">
+        <test-method status="PASS" signature="i_am_a_registered_user_I_open_the_browser(java.lang.String)[pri:10, instance:Stepdef.Popbitch_login_First_Use_Notice@68c4039c]" name="i_am_a_registered_user_I_open_the_browser" duration-ms="1171" started-at="2019-05-30T15:31:26Z" finished-at="2019-05-30T15:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_a_registered_user_I_open_the_browser -->
+        <test-method status="PASS" signature="i_navigate_to_popbitch_com()[pri:11, instance:Stepdef.Popbitch_login_First_Use_Notice@68c4039c]" name="i_navigate_to_popbitch_com" duration-ms="7783" started-at="2019-05-30T15:31:27Z" finished-at="2019-05-30T15:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_navigate_to_popbitch_com -->
+        <test-method status="PASS" signature="i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice()[pri:14, instance:Stepdef.Popbitch_login_First_Use_Notice@68c4039c]" name="i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice" duration-ms="20191" started-at="2019-05-30T15:31:35Z" finished-at="2019-05-30T15:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice -->
+        <test-method status="PASS" signature="i_verify_that_the_Login_Button_Navigates_me_to_the_login_page()[pri:15, instance:Stepdef.Popbitch_login_First_Use_Notice@68c4039c]" name="i_verify_that_the_Login_Button_Navigates_me_to_the_login_page" duration-ms="10427" started-at="2019-05-30T15:31:55Z" finished-at="2019-05-30T15:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_verify_that_the_Login_Button_Navigates_me_to_the_login_page -->
+        <test-method status="PASS" signature="i_Login_with_correct_Details()[pri:16, instance:Stepdef.Popbitch_login_First_Use_Notice@68c4039c]" name="i_Login_with_correct_Details" duration-ms="8058" started-at="2019-05-30T15:32:06Z" finished-at="2019-05-30T15:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_Login_with_correct_Details -->
+        <test-method status="PASS" signature="i_verify_that_I_am_navigated_to_the_full_article()[pri:17, instance:Stepdef.Popbitch_login_First_Use_Notice@68c4039c]" name="i_verify_that_I_am_navigated_to_the_full_article" duration-ms="40653" started-at="2019-05-30T15:32:14Z" finished-at="2019-05-30T15:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_verify_that_I_am_navigated_to_the_full_article -->
+      </class> <!-- Stepdef.Popbitch_login_First_Use_Notice -->
+      <class name="Stepdef.popbitch_transaction">
+        <test-method status="PASS" signature="i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as(java.lang.String)[pri:23, instance:Stepdef.popbitch_transaction@ae45eb6]" name="i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as" duration-ms="55325" started-at="2019-05-30T15:32:54Z" finished-at="2019-05-30T15:33:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as -->
+        <test-method status="PASS" signature="i_read_a_premium_article()[pri:24, instance:Stepdef.popbitch_transaction@ae45eb6]" name="i_read_a_premium_article" duration-ms="12884" started-at="2019-05-30T15:33:50Z" finished-at="2019-05-30T15:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_read_a_premium_article -->
+        <test-method status="PASS" signature="the_wallet_balance_and_free_point_are_deducted_by_p()[pri:25, instance:Stepdef.popbitch_transaction@ae45eb6]" name="the_wallet_balance_and_free_point_are_deducted_by_p" duration-ms="8148" started-at="2019-05-30T15:34:03Z" finished-at="2019-05-30T15:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_wallet_balance_and_free_point_are_deducted_by_p -->
+        <test-method status="PASS" signature="the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected()[pri:26, instance:Stepdef.popbitch_transaction@ae45eb6]" name="the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected" duration-ms="1" started-at="2019-05-30T15:34:11Z" finished-at="2019-05-30T15:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected -->
+        <test-method status="PASS" signature="reactions_wallet_balance_is_updated_and_free_point_remains_uneffected()[pri:27, instance:Stepdef.popbitch_transaction@ae45eb6]" name="reactions_wallet_balance_is_updated_and_free_point_remains_uneffected" duration-ms="21496" started-at="2019-05-30T15:34:11Z" finished-at="2019-05-30T15:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reactions_wallet_balance_is_updated_and_free_point_remains_uneffected -->
+        <test-method status="PASS" signature="Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected()[pri:28, instance:Stepdef.popbitch_transaction@ae45eb6]" name="Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected" duration-ms="16008" started-at="2019-05-30T15:34:32Z" finished-at="2019-05-30T15:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected -->
+        <test-method status="PASS" signature="cricketer_wallet_balance_remains_and_is_uneffected()[pri:29, instance:Stepdef.popbitch_transaction@ae45eb6]" name="cricketer_wallet_balance_remains_and_is_uneffected" duration-ms="16263" started-at="2019-05-30T15:34:48Z" finished-at="2019-05-30T15:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cricketer_wallet_balance_remains_and_is_uneffected -->
+      </class> <!-- Stepdef.popbitch_transaction -->
+      <class name="Stepdef.Popbitch_register_First_Use_notice">
+        <test-method status="PASS" signature="i_am_not_a_user_of_Agate_I_open_a_browser(java.lang.String)[pri:0, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="i_am_not_a_user_of_Agate_I_open_a_browser" duration-ms="1814" started-at="2019-05-30T15:28:52Z" finished-at="2019-05-30T15:28:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_not_a_user_of_Agate_I_open_a_browser -->
+        <test-method status="PASS" signature="i_navigate_to_popbitch_com_from_the_browser()[pri:1, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="i_navigate_to_popbitch_com_from_the_browser" duration-ms="8897" started-at="2019-05-30T15:28:54Z" finished-at="2019-05-30T15:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_navigate_to_popbitch_com_from_the_browser -->
+        <test-method status="PASS" signature="i_click_on_the_create_agate_wallet_from_the_first_use_notice()[pri:2, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="i_click_on_the_create_agate_wallet_from_the_first_use_notice" duration-ms="11159" started-at="2019-05-30T15:29:03Z" finished-at="2019-05-30T15:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_click_on_the_create_agate_wallet_from_the_first_use_notice -->
+        <test-method status="PASS" signature="i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page()[pri:3, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page" duration-ms="32897" started-at="2019-05-30T15:29:14Z" finished-at="2019-05-30T15:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page -->
+        <test-method status="PASS" signature="i_enter_the_correct_details_and_hit_the_Register_button()[pri:4, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="i_enter_the_correct_details_and_hit_the_Register_button" duration-ms="35557" started-at="2019-05-30T15:29:47Z" finished-at="2019-05-30T15:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_enter_the_correct_details_and_hit_the_Register_button -->
+        <test-method status="PASS" signature="i_login_successfully()[pri:5, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="i_login_successfully" duration-ms="5024" started-at="2019-05-30T15:30:22Z" finished-at="2019-05-30T15:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_login_successfully -->
+        <test-method status="PASS" signature="finish_Notice_appears()[pri:6, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="finish_Notice_appears" duration-ms="24669" started-at="2019-05-30T15:30:27Z" finished-at="2019-05-30T15:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish_Notice_appears -->
+        <test-method status="PASS" signature="finish_notice_elements_are_displayed()[pri:7, instance:Stepdef.Popbitch_register_First_Use_notice@3532ec19]" name="finish_notice_elements_are_displayed" duration-ms="33980" started-at="2019-05-30T15:30:52Z" finished-at="2019-05-30T15:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish_notice_elements_are_displayed -->
+      </class> <!-- Stepdef.Popbitch_register_First_Use_notice -->
+    </test> <!-- Chrome -->
+  </suite> <!--  Popbitch Chrome -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [safari]">
+  <test thread-count="5" name="safari(failed)">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="Stepdef.Boone_Register">
+        <methods>
+          <include name="i_enter_all_the_details_successfully_on_reg_page_on_boone"/>
+          <include name="i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_boone"/>
+          <include name="i_am_registered_as_an_agate_user_on_boone_successfully_and_I_am_shown_a_first_use_notice"/>
+          <include name="i_navigate_to_a_premium_article_on_boone"/>
+          <include name="i_click_on_the_create_wallet_button_on_boone"/>
+        </methods>
+      </class> <!-- Stepdef.Boone_Register -->
+      <class name="Stepdef.Boone_Transaction">
+        <methods>
+          <include name="i_read_a_premium_article_on_Boone"/>
+          <include name="reactions_wallet_balance_is_updated_and_free_point_remains_uneffected"/>
+          <include name="i_am_a_registered_Agate_User_and_I_login_in_to_Boone" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Stepdef.Boone_Transaction -->
+    </classes>
+  </test> <!-- safari(failed) -->
+</suite> <!-- Failed suite [safari] -->

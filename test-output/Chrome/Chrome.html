@@ -1,0 +1,351 @@
+<html>
+<head>
+<title>TestNG:  Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 27 09:57:26 BST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>414 seconds (414005 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Stepdef.Cricketer_Transaction.cornwall_wallet_balance_remains_and_is_uneffected_according_to_cricketer()'><b>cornwall_wallet_balance_remains_and_is_uneffected_according_to_cricketer</b><br>Test class: Stepdef.Cricketer_Transaction</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;0.2&gt; but was:&lt;0.8&gt;
+	at Stepdef.Cricketer_Transaction.cornwall_wallet_balance_remains_and_is_uneffected_according_to_cricketer(Cricketer_Transaction.java:503)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2057077925", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2057077925'><pre>java.lang.AssertionError: expected:&lt;0.2&gt; but was:&lt;0.8&gt;
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+	at Stepdef.Cricketer_Transaction.cornwall_wallet_balance_remains_and_is_uneffected_according_to_cricketer(Cricketer_Transaction.java:503)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>14</td>
+<td>Stepdef.Cricketer_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Transaction.reaction_wallet_balance_is_updated_and_free_point_remains_uneffected()'><b>reaction_wallet_balance_is_updated_and_free_point_remains_uneffected</b><br>Test class: Stepdef.Cricketer_Transaction</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;0.2&gt; but was:&lt;0.8&gt;
+	at Stepdef.Cricketer_Transaction.reaction_wallet_balance_is_updated_and_free_point_remains_uneffected(Cricketer_Transaction.java:439)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1237264838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237264838'><pre>java.lang.AssertionError: expected:&lt;0.2&gt; but was:&lt;0.8&gt;
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+	at Stepdef.Cricketer_Transaction.reaction_wallet_balance_is_updated_and_free_point_remains_uneffected(Cricketer_Transaction.java:439)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>Stepdef.Cricketer_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Transaction.the_popbitch_wallet_balance_is_updated_same_as_cricketer_and_free_point_remains_uneffected()'><b>the_popbitch_wallet_balance_is_updated_same_as_cricketer_and_free_point_remains_uneffected</b><br>Test class: Stepdef.Cricketer_Transaction</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;0.2&gt; but was:&lt;0.8&gt;
+	at Stepdef.Cricketer_Transaction.the_popbitch_wallet_balance_is_updated_same_as_cricketer_and_free_point_remains_uneffected(Cricketer_Transaction.java:378)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1803890702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1803890702'><pre>java.lang.AssertionError: expected:&lt;0.2&gt; but was:&lt;0.8&gt;
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+	at Stepdef.Cricketer_Transaction.the_popbitch_wallet_balance_is_updated_same_as_cricketer_and_free_point_remains_uneffected(Cricketer_Transaction.java:378)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>Stepdef.Cricketer_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Transaction.the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_cricketer_wallet()'><b>the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_cricketer_wallet</b><br>Test class: Stepdef.Cricketer_Transaction</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;iframe id=&quot;iframe__inpage_notices&quot; class=&quot;&quot; style=&quot;display: block; width: 100%; height: 361px; border: none;&quot; cd_frame_id_=&quot;da37de748e96119a709a3ee79a6842e5&quot;&gt;&lt;/iframe&gt; is not clickable at point (398, 20). Other element would receive the click: &lt;div class=&quot;col-md-6&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:49c:379:c779:b658%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58599}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 699b7a1341e26641ccb95bf64fb83e06
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Elements.Authorise_charge_notice_popbitch.authorise_charge_notice_click_continue(Authorise_charge_notice_popbitch.java:37)
+	at Stepdef.Cricketer_Transaction.the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_cricketer_wallet(Cricketer_Transaction.java:252)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1112758237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1112758237'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;iframe id=&quot;iframe__inpage_notices&quot; class=&quot;&quot; style=&quot;display: block; width: 100%; height: 361px; border: none;&quot; cd_frame_id_=&quot;da37de748e96119a709a3ee79a6842e5&quot;&gt;&lt;/iframe&gt; is not clickable at point (398, 20). Other element would receive the click: &lt;div class=&quot;col-md-6&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:49c:379:c779:b658%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58599}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 699b7a1341e26641ccb95bf64fb83e06
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Elements.Authorise_charge_notice_popbitch.authorise_charge_notice_click_continue(Authorise_charge_notice_popbitch.java:37)
+	at Stepdef.Cricketer_Transaction.the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_cricketer_wallet(Cricketer_Transaction.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>48</td>
+<td>Stepdef.Cricketer_Transaction@2b2948e2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Stepdef.Cricketer_login_first_use_notice.entering_the_correct_email_and_password_logs_me_in_to_Cricketer()'><b>entering_the_correct_email_and_password_logs_me_in_to_Cricketer</b><br>Test class: Stepdef.Cricketer_login_first_use_notice</td>
+<td></td>
+<td>7</td>
+<td>Stepdef.Cricketer_login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Transaction.i_am_a_registered_Agate_User_and_I_login_in_to_Cricketer()'><b>i_am_a_registered_Agate_User_and_I_login_in_to_Cricketer</b><br>Test class: Stepdef.Cricketer_Transaction<br>Parameters: Chrome</td>
+<td></td>
+<td>67</td>
+<td>Stepdef.Cricketer_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_login_first_use_notice.i_am_a_registered_user_of_Cricketer_and_I_open_a_browser()'><b>i_am_a_registered_user_of_Cricketer_and_I_open_a_browser</b><br>Test class: Stepdef.Cricketer_login_first_use_notice<br>Parameters: Chrome</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Cricketer_login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Register_First_Use_Notice.i_am_not_a_user_of_agate_on_cricketer_and_I_open_a_browser()'><b>i_am_not_a_user_of_agate_on_cricketer_and_I_open_a_browser</b><br>Test class: Stepdef.Cricketer_Register_First_Use_Notice<br>Parameters: Chrome</td>
+<td></td>
+<td>1</td>
+<td>Stepdef.Cricketer_Register_First_Use_Notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Register_First_Use_Notice.i_am_registered_as_an_agate_user_on_cricketer_successfully_and_I_am_shown_a_first_use_notice()'><b>i_am_registered_as_an_agate_user_on_cricketer_successfully_and_I_am_shown_a_first_use_notice</b><br>Test class: Stepdef.Cricketer_Register_First_Use_Notice</td>
+<td></td>
+<td>58</td>
+<td>Stepdef.Cricketer_Register_First_Use_Notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_login_first_use_notice.i_click_on_Login_from_Cricketer_First_use_notice()'><b>i_click_on_Login_from_Cricketer_First_use_notice</b><br>Test class: Stepdef.Cricketer_login_first_use_notice</td>
+<td></td>
+<td>21</td>
+<td>Stepdef.Cricketer_login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Register_First_Use_Notice.i_click_on_the_create_wallet_button()'><b>i_click_on_the_create_wallet_button</b><br>Test class: Stepdef.Cricketer_Register_First_Use_Notice</td>
+<td></td>
+<td>18</td>
+<td>Stepdef.Cricketer_Register_First_Use_Notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Register_First_Use_Notice.i_enter_all_the_details_successfully()'><b>i_enter_all_the_details_successfully</b><br>Test class: Stepdef.Cricketer_Register_First_Use_Notice</td>
+<td></td>
+<td>55</td>
+<td>Stepdef.Cricketer_Register_First_Use_Notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_login_first_use_notice.i_navigate_to_a_premium_article_on_Cricketer()'><b>i_navigate_to_a_premium_article_on_Cricketer</b><br>Test class: Stepdef.Cricketer_login_first_use_notice</td>
+<td></td>
+<td>13</td>
+<td>Stepdef.Cricketer_login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Register_First_Use_Notice.i_navigate_to_a_premium_article_on_cricketer()'><b>i_navigate_to_a_premium_article_on_cricketer</b><br>Test class: Stepdef.Cricketer_Register_First_Use_Notice</td>
+<td></td>
+<td>12</td>
+<td>Stepdef.Cricketer_Register_First_Use_Notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Transaction.i_read_a_premium_article_on_cricketer()'><b>i_read_a_premium_article_on_cricketer</b><br>Test class: Stepdef.Cricketer_Transaction</td>
+<td></td>
+<td>17</td>
+<td>Stepdef.Cricketer_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_login_first_use_notice.i_verify_that_the_Login_Button_Navigates_me_to_the_login_page_to_log_me_in_to_Cricketer()'><b>i_verify_that_the_Login_Button_Navigates_me_to_the_login_page_to_log_me_in_to_Cricketer</b><br>Test class: Stepdef.Cricketer_login_first_use_notice</td>
+<td></td>
+<td>10</td>
+<td>Stepdef.Cricketer_login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_Register_First_Use_Notice.i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page()'><b>i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page</b><br>Test class: Stepdef.Cricketer_Register_First_Use_Notice</td>
+<td></td>
+<td>12</td>
+<td>Stepdef.Cricketer_Register_First_Use_Notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Cricketer_login_first_use_notice.verify_that_I_am_being_navigated_to_the_same_article_on_cricketer()'><b>verify_that_I_am_being_navigated_to_the_same_article_on_cricketer</b><br>Test class: Stepdef.Cricketer_login_first_use_notice</td>
+<td></td>
+<td>28</td>
+<td>Stepdef.Cricketer_login_first_use_notice@eec5a4a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Safari]]">
+  <test thread-count="5" name="Safari(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Reaction_Transaction">
+        <methods>
+          <include name="Cornwall_wallet_balance_remains_and_is_uneffected"/>
+          <include name="cricketer_wallet_balance_is_updated_and_free_point_remains_uneffected"/>
+          <include name="the_popbitch_wallet_balance_is_updated_same_as_reaction_and_free_point_remains_uneffected"/>
+        </methods>
+      </class> <!-- Stepdef.Reaction_Transaction -->
+    </classes>
+  </test> <!-- Safari(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Safari]] -->

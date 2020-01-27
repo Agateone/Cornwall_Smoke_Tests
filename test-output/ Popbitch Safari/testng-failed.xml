@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch Safari]">
+  <test thread-count="5" name="Signup_from_FUN(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment">
+        <methods>
+          <include name="an_ADD_funds_notice_is_displayed"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
+          <include name="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it"/>
+          <include name="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment -->
+    </classes>
+  </test> <!-- Signup_from_FUN(failed) -->
+</suite> <!-- Failed suite [ Popbitch Safari] -->

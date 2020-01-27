@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Reaction]">
+  <test thread-count="5" name="Reaction(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Reaction_Transaction">
+        <methods>
+          <include name="the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_reaction_wallet"/>
+          <include name="i_read_a_premium_article_on_reaction"/>
+        </methods>
+      </class> <!-- Stepdef.Reaction_Transaction -->
+    </classes>
+  </test> <!-- Reaction(failed) -->
+</suite> <!-- Failed suite [Reaction] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Smoketests(failed)">
+    <classes>
+      <class name="Stepdef.Register_From_Popbitch_Firstuse_Notice">
+        <methods>
+          <include name="i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page"/>
+        </methods>
+      </class> <!-- Stepdef.Register_From_Popbitch_Firstuse_Notice -->
+      <class name="Stepdef.transaction_staging_popbitch">
+        <methods>
+          <include name="i_read_a_premium_article"/>
+          <include name="the_wallet_balance_and_free_point_are_deducted_by_p"/>
+        </methods>
+      </class> <!-- Stepdef.transaction_staging_popbitch -->
+    </classes>
+  </test> <!-- Smoketests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

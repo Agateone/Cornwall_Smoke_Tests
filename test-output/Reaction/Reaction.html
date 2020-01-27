@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Reaction</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Reaction</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 27 09:49:19 BST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>460 seconds (460050 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Stepdef.Reaction_Transaction.Cornwall_wallet_balance_remains_and_is_uneffected()'><b>Cornwall_wallet_balance_remains_and_is_uneffected</b><br>Test class: Stepdef.Reaction_Transaction</td>
+<td></td>
+<td>9</td>
+<td>Stepdef.Reaction_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Transaction.cricketer_wallet_balance_is_updated_and_free_point_remains_uneffected()'><b>cricketer_wallet_balance_is_updated_and_free_point_remains_uneffected</b><br>Test class: Stepdef.Reaction_Transaction</td>
+<td></td>
+<td>9</td>
+<td>Stepdef.Reaction_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Login_first_use_notice.entering_the_correct_email_and_password_logs_me_in_to_reaction()'><b>entering_the_correct_email_and_password_logs_me_in_to_reaction</b><br>Test class: Stepdef.Reaction_Login_first_use_notice</td>
+<td></td>
+<td>17</td>
+<td>Stepdef.Reaction_Login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Transaction.i_am_a_registered_Agate_User_and_I_login_in_to_Reaction()'><b>i_am_a_registered_Agate_User_and_I_login_in_to_Reaction</b><br>Test class: Stepdef.Reaction_Transaction<br>Parameters: chrome</td>
+<td></td>
+<td>64</td>
+<td>Stepdef.Reaction_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Login_first_use_notice.i_am_a_registered_user_of_reaction_and_I_open_a_browser()'><b>i_am_a_registered_user_of_reaction_and_I_open_a_browser</b><br>Test class: Stepdef.Reaction_Login_first_use_notice<br>Parameters: chrome</td>
+<td></td>
+<td>0</td>
+<td>Stepdef.Reaction_Login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Reaction_register_first_use_notice.i_am_not_a_user_of_agate_on_reaction_and_I_open_a_browser()'><b>i_am_not_a_user_of_agate_on_reaction_and_I_open_a_browser</b><br>Test class: Stepdef.Reaction_register_first_use_notice<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>Stepdef.Reaction_register_first_use_notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Reaction_register_first_use_notice.i_am_registered_as_an_agate_user_on_reaction_successfully_and_I_am_shown_a_first_use_notice()'><b>i_am_registered_as_an_agate_user_on_reaction_successfully_and_I_am_shown_a_first_use_notice</b><br>Test class: Stepdef.Reaction_register_first_use_notice</td>
+<td></td>
+<td>53</td>
+<td>Stepdef.Reaction_register_first_use_notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Login_first_use_notice.i_click_on_Login_from_reaction_First_use_notice()'><b>i_click_on_Login_from_reaction_First_use_notice</b><br>Test class: Stepdef.Reaction_Login_first_use_notice</td>
+<td></td>
+<td>38</td>
+<td>Stepdef.Reaction_Login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Reaction_register_first_use_notice.i_click_on_the_create_wallet_button_of_reaction_first_use_notice()'><b>i_click_on_the_create_wallet_button_of_reaction_first_use_notice</b><br>Test class: Stepdef.Reaction_register_first_use_notice</td>
+<td></td>
+<td>51</td>
+<td>Stepdef.Reaction_register_first_use_notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Reaction_register_first_use_notice.i_enter_all_the_details_successfully_on_the_reg_page()'><b>i_enter_all_the_details_successfully_on_the_reg_page</b><br>Test class: Stepdef.Reaction_register_first_use_notice</td>
+<td></td>
+<td>61</td>
+<td>Stepdef.Reaction_register_first_use_notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Reaction_register_first_use_notice.i_navigate_to_a_premium_article_on_reaction()'><b>i_navigate_to_a_premium_article_on_reaction</b><br>Test class: Stepdef.Reaction_register_first_use_notice</td>
+<td></td>
+<td>14</td>
+<td>Stepdef.Reaction_register_first_use_notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Login_first_use_notice.i_navigate_to_a_premium_article_on_reaction_life()'><b>i_navigate_to_a_premium_article_on_reaction_life</b><br>Test class: Stepdef.Reaction_Login_first_use_notice</td>
+<td></td>
+<td>12</td>
+<td>Stepdef.Reaction_Login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Transaction.i_read_a_premium_article_on_reaction()'><b>i_read_a_premium_article_on_reaction</b><br>Test class: Stepdef.Reaction_Transaction</td>
+<td></td>
+<td>17</td>
+<td>Stepdef.Reaction_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Login_first_use_notice.i_verify_that_the_Login_Button_Navigates_me_to_the_login_page_to_log_me_in_to_reaction()'><b>i_verify_that_the_Login_Button_Navigates_me_to_the_login_page_to_log_me_in_to_reaction</b><br>Test class: Stepdef.Reaction_Login_first_use_notice</td>
+<td></td>
+<td>2</td>
+<td>Stepdef.Reaction_Login_first_use_notice@eec5a4a</td></tr>
+<tr>
+<td title='Stepdef.Reaction_register_first_use_notice.i_verify_that_the_create_wallet_button_on_reaction_first_use_notice_takes_me_to_the_reg_page()'><b>i_verify_that_the_create_wallet_button_on_reaction_first_use_notice_takes_me_to_the_reg_page</b><br>Test class: Stepdef.Reaction_register_first_use_notice</td>
+<td></td>
+<td>22</td>
+<td>Stepdef.Reaction_register_first_use_notice@210366b4</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Transaction.the_popbitch_wallet_balance_is_updated_same_as_reaction_and_free_point_remains_uneffected()'><b>the_popbitch_wallet_balance_is_updated_same_as_reaction_and_free_point_remains_uneffected</b><br>Test class: Stepdef.Reaction_Transaction</td>
+<td></td>
+<td>9</td>
+<td>Stepdef.Reaction_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Transaction.the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_reaction_wallet()'><b>the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_reaction_wallet</b><br>Test class: Stepdef.Reaction_Transaction</td>
+<td></td>
+<td>28</td>
+<td>Stepdef.Reaction_Transaction@2b2948e2</td></tr>
+<tr>
+<td title='Stepdef.Reaction_Login_first_use_notice.verify_that_I_am_being_navigated_to_the_same_article()'><b>verify_that_I_am_being_navigated_to_the_same_article</b><br>Test class: Stepdef.Reaction_Login_first_use_notice</td>
+<td></td>
+<td>44</td>
+<td>Stepdef.Reaction_Login_first_use_notice@eec5a4a</td></tr>
+</table><p>
+</body>
+</html>

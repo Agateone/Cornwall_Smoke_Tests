@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Popbitch Safari">
+  <test  name="Signup_from_FUN" >
+   <parameter name="browser" value="chrome" />
+    <classes>
+  
+   	<class name="Stepdef.Signup_Live.Scifi_Live"/>
+   	<class name="Stepdef.Signup_Live.Cornwall_Live"/>
+   	<class name="Stepdef.Signup_Live.Cricketer_Live"/>
+   	<class name="Stepdef.Signup_Live.Examiner_Live"/>
+   	<class name="Stepdef.Signup_Live.Grantham_Live"/>
+   	<class name="Stepdef.Signup_Live.Maidenhead_Live"/>
+   	<class name="Stepdef.Signup_Live.Popbitch_Fun"/>
+   	<class name="Stepdef.Signup_Live.Reaction_Live"/>
+   	
+   	 
+    </classes>
+  </test> 
+  </suite>

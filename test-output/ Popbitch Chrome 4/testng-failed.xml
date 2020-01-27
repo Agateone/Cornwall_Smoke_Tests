@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch Chrome 4]">
+  <test thread-count="5" name="Smoke Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications">
+        <methods>
+          <include name="the_free_period_on_newbury_is_one_days_from_the_date_time_the_first_article_was_read_on_newbury"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [ Popbitch Chrome 4] -->

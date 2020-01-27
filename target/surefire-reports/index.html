@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-_Popbitch_Chrome">
+              <span class="suite-name border-passed"> Popbitch Chrome</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-_Popbitch_Chrome">
+                    <span>Popbitch_chrome.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-_Popbitch_Chrome">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-_Popbitch_Chrome">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-_Popbitch_Chrome">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-_Popbitch_Chrome">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-_Popbitch_Chrome">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-_Popbitch_Chrome">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="hide-methods passed suite-_Popbitch_Chrome"> (hide)</a> <!-- hide-methods passed suite-_Popbitch_Chrome -->
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="show-methods passed suite-_Popbitch_Chrome"> (show)</a> <!-- show-methods passed suite-_Popbitch_Chrome -->
+                    </span>
+                    <div class="method-list-content passed suite-_Popbitch_Chrome">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.popbitch_transaction" hash-for-method="Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected">Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.popbitch_transaction" hash-for-method="cricketer_wallet_balance_remains_and_is_uneffected">cricketer_wallet_balance_remains_and_is_uneffected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="finish_Notice_appears">finish_Notice_appears</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="finish_notice_elements_are_displayed">finish_notice_elements_are_displayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_login_First_Use_Notice" hash-for-method="i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice">i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_login_First_Use_Notice" hash-for-method="i_Login_with_correct_Details">i_Login_with_correct_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.popbitch_transaction" hash-for-method="i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as(Chrome)">i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_login_First_Use_Notice" hash-for-method="i_am_a_registered_user_I_open_the_browser(Chrome)">i_am_a_registered_user_I_open_the_browser(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="i_am_not_a_user_of_Agate_I_open_a_browser(Chrome)">i_am_not_a_user_of_Agate_I_open_a_browser(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="i_click_on_the_create_agate_wallet_from_the_first_use_notice">i_click_on_the_create_agate_wallet_from_the_first_use_notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="i_enter_the_correct_details_and_hit_the_Register_button">i_enter_the_correct_details_and_hit_the_Register_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="i_login_successfully">i_login_successfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_login_First_Use_Notice" hash-for-method="i_navigate_to_popbitch_com">i_navigate_to_popbitch_com</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="i_navigate_to_popbitch_com_from_the_browser">i_navigate_to_popbitch_com_from_the_browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.popbitch_transaction" hash-for-method="i_read_a_premium_article">i_read_a_premium_article</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_login_First_Use_Notice" hash-for-method="i_verify_that_I_am_navigated_to_the_full_article">i_verify_that_I_am_navigated_to_the_full_article</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_login_First_Use_Notice" hash-for-method="i_verify_that_the_Login_Button_Navigates_me_to_the_login_page">i_verify_that_the_Login_Button_Navigates_me_to_the_login_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Popbitch_register_First_Use_notice" hash-for-method="i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page">i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.popbitch_transaction" hash-for-method="reactions_wallet_balance_is_updated_and_free_point_remains_uneffected">reactions_wallet_balance_is_updated_and_free_point_remains_uneffected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.popbitch_transaction" hash-for-method="the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected">the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.popbitch_transaction" hash-for-method="the_wallet_balance_and_free_point_are_deducted_by_p">the_wallet_balance_and_free_point_are_deducted_by_p</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-_Popbitch_Chrome -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-_Popbitch_Chrome" class="panel _Popbitch_Chrome">
+          <div class="suite-_Popbitch_Chrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Stepdef.Popbitch_login_First_Use_Notice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice">
+                  </a> <!-- i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice -->
+                  <span class="method-name">i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_Login_with_correct_Details">
+                  </a> <!-- i_Login_with_correct_Details -->
+                  <span class="method-name">i_Login_with_correct_Details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_a_registered_user_I_open_the_browser(Chrome)">
+                  </a> <!-- i_am_a_registered_user_I_open_the_browser(Chrome) -->
+                  <span class="method-name">i_am_a_registered_user_I_open_the_browser</span>
+                  <span class="parameters">(Chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_navigate_to_popbitch_com">
+                  </a> <!-- i_navigate_to_popbitch_com -->
+                  <span class="method-name">i_navigate_to_popbitch_com</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_verify_that_I_am_navigated_to_the_full_article">
+                  </a> <!-- i_verify_that_I_am_navigated_to_the_full_article -->
+                  <span class="method-name">i_verify_that_I_am_navigated_to_the_full_article</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_verify_that_the_Login_Button_Navigates_me_to_the_login_page">
+                  </a> <!-- i_verify_that_the_Login_Button_Navigates_me_to_the_login_page -->
+                  <span class="method-name">i_verify_that_the_Login_Button_Navigates_me_to_the_login_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Chrome-class-passed -->
+          <div class="suite-_Popbitch_Chrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Stepdef.popbitch_transaction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected">
+                  </a> <!-- Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected -->
+                  <span class="method-name">Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cricketer_wallet_balance_remains_and_is_uneffected">
+                  </a> <!-- cricketer_wallet_balance_remains_and_is_uneffected -->
+                  <span class="method-name">cricketer_wallet_balance_remains_and_is_uneffected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as(Chrome)">
+                  </a> <!-- i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as(Chrome) -->
+                  <span class="method-name">i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as</span>
+                  <span class="parameters">(Chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_read_a_premium_article">
+                  </a> <!-- i_read_a_premium_article -->
+                  <span class="method-name">i_read_a_premium_article</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reactions_wallet_balance_is_updated_and_free_point_remains_uneffected">
+                  </a> <!-- reactions_wallet_balance_is_updated_and_free_point_remains_uneffected -->
+                  <span class="method-name">reactions_wallet_balance_is_updated_and_free_point_remains_uneffected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected">
+                  </a> <!-- the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected -->
+                  <span class="method-name">the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_wallet_balance_and_free_point_are_deducted_by_p">
+                  </a> <!-- the_wallet_balance_and_free_point_are_deducted_by_p -->
+                  <span class="method-name">the_wallet_balance_and_free_point_are_deducted_by_p</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Chrome-class-passed -->
+          <div class="suite-_Popbitch_Chrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Stepdef.Popbitch_register_First_Use_notice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="finish_Notice_appears">
+                  </a> <!-- finish_Notice_appears -->
+                  <span class="method-name">finish_Notice_appears</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="finish_notice_elements_are_displayed">
+                  </a> <!-- finish_notice_elements_are_displayed -->
+                  <span class="method-name">finish_notice_elements_are_displayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_not_a_user_of_Agate_I_open_a_browser(Chrome)">
+                  </a> <!-- i_am_not_a_user_of_Agate_I_open_a_browser(Chrome) -->
+                  <span class="method-name">i_am_not_a_user_of_Agate_I_open_a_browser</span>
+                  <span class="parameters">(Chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_click_on_the_create_agate_wallet_from_the_first_use_notice">
+                  </a> <!-- i_click_on_the_create_agate_wallet_from_the_first_use_notice -->
+                  <span class="method-name">i_click_on_the_create_agate_wallet_from_the_first_use_notice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_enter_the_correct_details_and_hit_the_Register_button">
+                  </a> <!-- i_enter_the_correct_details_and_hit_the_Register_button -->
+                  <span class="method-name">i_enter_the_correct_details_and_hit_the_Register_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_login_successfully">
+                  </a> <!-- i_login_successfully -->
+                  <span class="method-name">i_login_successfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_navigate_to_popbitch_com_from_the_browser">
+                  </a> <!-- i_navigate_to_popbitch_com_from_the_browser -->
+                  <span class="method-name">i_navigate_to_popbitch_com_from_the_browser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page">
+                  </a> <!-- i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page -->
+                  <span class="method-name">i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Chrome-class-passed -->
+        </div> <!-- panel _Popbitch_Chrome -->
+        <div panel-name="test-xml-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/jay/eclipse-workspace/Project/Popbitch_chrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot; Popbitch Chrome&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Stepdef.Popbitch_register_First_Use_notice&quot;/&gt;
+      &lt;class name=&quot;Stepdef.Popbitch_login_First_Use_Notice&quot;/&gt;
+      &lt;class name=&quot;Stepdef.popbitch_transaction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+&lt;/suite&gt; &lt;!--  Popbitch Chrome --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData__Popbitch_Chrome');
+function tableData__Popbitch_Chrome() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as')
+data.setCell(0, 2, 'Stepdef.popbitch_transaction')
+data.setCell(0, 3, 55325);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'i_verify_that_I_am_navigated_to_the_full_article')
+data.setCell(1, 2, 'Stepdef.Popbitch_login_First_Use_Notice')
+data.setCell(1, 3, 40653);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'i_enter_the_correct_details_and_hit_the_Register_button')
+data.setCell(2, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(2, 3, 35557);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'finish_notice_elements_are_displayed')
+data.setCell(3, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(3, 3, 33980);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page')
+data.setCell(4, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(4, 3, 32897);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'finish_Notice_appears')
+data.setCell(5, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(5, 3, 24669);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'reactions_wallet_balance_is_updated_and_free_point_remains_uneffected')
+data.setCell(6, 2, 'Stepdef.popbitch_transaction')
+data.setCell(6, 3, 21496);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice')
+data.setCell(7, 2, 'Stepdef.Popbitch_login_First_Use_Notice')
+data.setCell(7, 3, 20191);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'cricketer_wallet_balance_remains_and_is_uneffected')
+data.setCell(8, 2, 'Stepdef.popbitch_transaction')
+data.setCell(8, 3, 16263);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected')
+data.setCell(9, 2, 'Stepdef.popbitch_transaction')
+data.setCell(9, 3, 16008);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'i_read_a_premium_article')
+data.setCell(10, 2, 'Stepdef.popbitch_transaction')
+data.setCell(10, 3, 12884);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'i_click_on_the_create_agate_wallet_from_the_first_use_notice')
+data.setCell(11, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(11, 3, 11159);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'i_verify_that_the_Login_Button_Navigates_me_to_the_login_page')
+data.setCell(12, 2, 'Stepdef.Popbitch_login_First_Use_Notice')
+data.setCell(12, 3, 10427);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'i_navigate_to_popbitch_com_from_the_browser')
+data.setCell(13, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(13, 3, 8897);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'the_wallet_balance_and_free_point_are_deducted_by_p')
+data.setCell(14, 2, 'Stepdef.popbitch_transaction')
+data.setCell(14, 3, 8148);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'i_Login_with_correct_Details')
+data.setCell(15, 2, 'Stepdef.Popbitch_login_First_Use_Notice')
+data.setCell(15, 3, 8058);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'i_navigate_to_popbitch_com')
+data.setCell(16, 2, 'Stepdef.Popbitch_login_First_Use_Notice')
+data.setCell(16, 3, 7783);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'i_login_successfully')
+data.setCell(17, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(17, 3, 5024);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'i_am_not_a_user_of_Agate_I_open_a_browser')
+data.setCell(18, 2, 'Stepdef.Popbitch_register_First_Use_notice')
+data.setCell(18, 3, 1814);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'i_am_a_registered_user_I_open_the_browser')
+data.setCell(19, 2, 'Stepdef.Popbitch_login_First_Use_Notice')
+data.setCell(19, 3, 1171);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected')
+data.setCell(20, 2, 'Stepdef.popbitch_transaction')
+data.setCell(20, 3, 1);
+window.suiteTableData['_Popbitch_Chrome']= { tableData: data, tableDiv: 'times-div-_Popbitch_Chrome'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-_Popbitch_Chrome">
+              </div> <!-- times-div-_Popbitch_Chrome -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Stepdef.Popbitch_register_First_Use_notice</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">i_am_not_a_user_of_Agate_I_open_a_browser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_navigate_to_popbitch_com_from_the_browser</span>
+                <span class="method-start">1816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_click_on_the_create_agate_wallet_from_the_first_use_notice</span>
+                <span class="method-start">10714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_verify_that_the_create_wallet_button_navigates_me_to_the_sign_up_page</span>
+                <span class="method-start">21873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_enter_the_correct_details_and_hit_the_Register_button</span>
+                <span class="method-start">54770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_login_successfully</span>
+                <span class="method-start">90328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">finish_Notice_appears</span>
+                <span class="method-start">95352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">finish_notice_elements_are_displayed</span>
+                <span class="method-start">120022 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Stepdef.Popbitch_login_First_Use_Notice</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">i_am_a_registered_user_I_open_the_browser(Chrome)</span>
+                <span class="method-start">154002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_navigate_to_popbitch_com</span>
+                <span class="method-start">155174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_Click_on_Login_to_Agate_from_the_Pop_Bitch_First_use_notice</span>
+                <span class="method-start">162957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_verify_that_the_Login_Button_Navigates_me_to_the_login_page</span>
+                <span class="method-start">183148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_Login_with_correct_Details</span>
+                <span class="method-start">193576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_verify_that_I_am_navigated_to_the_full_article</span>
+                <span class="method-start">201634 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Stepdef.popbitch_transaction</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">i_am_a_registered_Agate_User_and_I_login_in_to_popbitch_staging_with_username_as_and_password_as(Chrome)</span>
+                <span class="method-start">242288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_read_a_premium_article</span>
+                <span class="method-start">297613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_wallet_balance_and_free_point_are_deducted_by_p</span>
+                <span class="method-start">310498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_New_European_wallet_balance_is_updated_same_as_popbitch_and_free_point_remains_uneffected</span>
+                <span class="method-start">318646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reactions_wallet_balance_is_updated_and_free_point_remains_uneffected</span>
+                <span class="method-start">318647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Cornwall_wallet_balance_is_updated_and_free_point_remains_uneffected</span>
+                <span class="method-start">340144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cricketer_wallet_balance_remains_and_is_uneffected</span>
+                <span class="method-start">356153 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

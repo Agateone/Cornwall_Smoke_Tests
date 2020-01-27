@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Chrome]">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Stepdef.Cricketer_Transaction">
+        <methods>
+          <include name="cornwall_wallet_balance_remains_and_is_uneffected_according_to_cricketer"/>
+          <include name="reaction_wallet_balance_is_updated_and_free_point_remains_uneffected"/>
+          <include name="the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_cricketer_wallet"/>
+          <include name="the_popbitch_wallet_balance_is_updated_same_as_cricketer_and_free_point_remains_uneffected"/>
+        </methods>
+      </class> <!-- Stepdef.Cricketer_Transaction -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Chrome] -->

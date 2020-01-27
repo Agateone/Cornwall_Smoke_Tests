@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Stepdef.Signup_Live.Popbitch_Fun">
+        <methods>
+          <include name="navigated_to_the_same_article"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN"/>
+          <include name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue"/>
+          <include name="finish_notice_appears"/>
+          <include name="i_get_a_funded_axate_wallet_with_one_pound_in_it"/>
+        </methods>
+      </class> <!-- Stepdef.Signup_Live.Popbitch_Fun -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

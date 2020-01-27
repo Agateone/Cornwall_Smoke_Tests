@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch firefox]">
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Stepdef.Popbitch.Popbitch_register_from_login_page">
+        <methods>
+          <include name="finish_notice_appears"/>
+          <include name="navigated_to_the_same_article"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.Popbitch_register_from_login_page -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [ Popbitch firefox] -->

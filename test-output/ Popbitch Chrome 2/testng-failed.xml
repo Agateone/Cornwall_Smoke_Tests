@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch Chrome 2]">
+  <test thread-count="5" name="Smoke Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Popbitch.POPSMO20_Unread_Updates_On_Date_Wallet_Back">
+        <methods>
+          <include name="the_updates_on_date_on_the_back_of_the_wallet_is_sevendaysdays_from_current_datetime"/>
+          <include name="i_flip_the_wallet"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO20_Unread_Updates_On_Date_Wallet_Back -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [ Popbitch Chrome 2] -->

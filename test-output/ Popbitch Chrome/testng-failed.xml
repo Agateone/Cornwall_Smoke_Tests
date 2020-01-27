@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch Chrome]">
+  <test thread-count="5" name="Smoke Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2">
+        <methods>
+          <include name="state_is_displayed"/>
+          <include name="enter_valid_card_details"/>
+          <include name="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two"/>
+          <include name="postcode_is_displayed"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2 -->
+      <class name="Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US">
+        <methods>
+          <include name="country_in_the_personal_information_page_in_the_account_page_is_united_states"/>
+          <include name="i_enter_Zipcode"/>
+          <include name="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two"/>
+          <include name="enter_valid_card_details"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
+          <include name="i_enter_state_as_Alaska"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US -->
+      <class name="Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country">
+        <methods>
+          <include name="i_select_country_as_spain_from_the_drop_down_on_reg_page_two"/>
+          <include name="enter_valid_card_details"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
+          <include name="country_in_the_personal_information_page_in_the_account_page_is_spain"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country -->
+      <class name="Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment">
+        <methods>
+          <include name="an_ADD_funds_notice_is_displayed"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
+          <include name="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it"/>
+          <include name="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment -->
+      <class name="Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page">
+        <methods>
+          <include name="i_get_a_funded_axate_wallet_with_one_pound_in_it"/>
+          <include name="I_click_on_register_here_on_the_login_page"/>
+          <include name="navigated_to_the_same_article"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN" invocation-numbers="0"/>
+          <include name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue"/>
+          <include name="finish_notice_appears"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page -->
+      <class name="Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds">
+        <methods>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages" invocation-numbers="0"/>
+          <include name="payment_system_displays_card_option"/>
+          <include name="payment_system_displays_paypal_option"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds -->
+      <class name="Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet">
+        <methods>
+          <include name="navigated_to_popbitch_com"/>
+          <include name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages" invocation-numbers="0"/>
+          <include name="i_get_a_funded_axate_wallet_with_one_pound_in_it"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet -->
+      <class name="Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice">
+        <methods>
+          <include name="finish_notice_appears"/>
+          <include name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue"/>
+          <include name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" invocation-numbers="0"/>
+          <include name="navigated_to_the_same_article"/>
+          <include name="i_get_a_funded_axate_wallet_with_one_pound_in_it"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [ Popbitch Chrome] -->

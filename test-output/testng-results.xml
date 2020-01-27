@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Popbitch Safari" duration-ms="155" started-at="2019-12-16T14:36:11Z" finished-at="2019-12-16T14:36:11Z">
+    <groups>
+    </groups>
+    <test name="Signup_from_FUN" duration-ms="155" started-at="2019-12-16T14:36:11Z" finished-at="2019-12-16T14:36:11Z">
+      <class name="Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:48, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@210366b4]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="43" started-at="2019-12-16T14:36:11Z" finished-at="2019-12-16T14:36:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Users/jay/eclipse-workspace/Smoke_test_Cases_Live/C:/Users/Administrator/Desktop/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/jay/eclipse-workspace/Smoke_test_Cases_Live/C:/Users/Administrator/Desktop/chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN -->
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:49, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@210366b4]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="5" started-at="2019-12-16T14:36:11Z" finished-at="2019-12-16T14:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
+        <test-method status="FAIL" signature="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch()[pri:50, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@210366b4]" name="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch" duration-ms="71" started-at="2019-12-16T14:36:11Z" finished-at="2019-12-16T14:36:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.Objects.requireNonNull(Objects.java:203)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch(POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.java:110)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch -->
+        <test-method status="FAIL" signature="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it()[pri:51, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@210366b4]" name="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it" duration-ms="2" started-at="2019-12-16T14:36:11Z" finished-at="2019-12-16T14:36:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.Objects.requireNonNull(Objects.java:203)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at Elements.Wallet_Elements.Click_On_popbitch_staging_agate_poster(Wallet_Elements.java:36)
+at Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it(POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.java:125)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it -->
+        <test-method status="FAIL" signature="an_ADD_funds_notice_is_displayed()[pri:52, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@210366b4]" name="an_ADD_funds_notice_is_displayed" duration-ms="1" started-at="2019-12-16T14:36:11Z" finished-at="2019-12-16T14:36:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Elements.Add_Funds_Notice.Add_funds_notice_displayed(Add_Funds_Notice.java:32)
+at Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.an_ADD_funds_notice_is_displayed(POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment.java:136)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- an_ADD_funds_notice_is_displayed -->
+      </class> <!-- Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment -->
+    </test> <!-- Signup_from_FUN -->
+  </suite> <!--  Popbitch Safari -->
+</testng-results>
