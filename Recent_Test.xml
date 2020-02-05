@@ -5,6 +5,8 @@
    <parameter name="browser" value="chrome" />
     <classes> 
  <class name="Stepdef.cornwalllive.CORSMO01_Cornwall_register_from_first_use_notice"/>   	 
+   
+   <class name="Stepdef.cornwalllive.CORSMO02_Cornwall_register_from_wallet"/>
     </classes>
   </test> 
   </suite>		
